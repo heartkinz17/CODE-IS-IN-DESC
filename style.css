@@ -1,31 +1,21 @@
-.topnav {
-background-image: url("https://cdn.hipwallpaper.com/i/61/90/e6dpSJ.jpg");
-background-size: 100%, 100%;
-text-align: center;
-font-size: 50px;
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
-} 
 
-.active {
-	color: white;
-	text-decoration: none;
-	font-family: "Bookman Old Style";
-	font-weight: bold;
-	padding-bottom: 500px;
-	
-}
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a class="active" href="contact.html">Contact</a>
+  <a class="active" href="#about">About</a>
+  
+  
+</div>
 
-.bio {
-	line-height: 3.0;
-	color: teal;
-	font-family: "Bookman Old Style";
-	text-align: left;
-	text-align: justify;
-	border-style: solid;
-    border-width: 2px;
-	border-color: teal;
-	width: 50px;
+<div><a class="bio">Hello! My name is Abby and I am a teenage aspiring artist. My other interests include computers and music but this website is dedicated to my art. <br> My main mediums for art are pencil and paper and digital painting. For digital I use Paint Tool Sai and a Wacom Intuos Pro. </a></div>
 
-	
-	
-}
+</body>
+</html>
